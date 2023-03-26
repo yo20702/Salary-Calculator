@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner {
+    height: 75px;
+    background-color: black;
+    font-family: "Avenir";
+    color: aliceblue;
+    text-align: center;
+}
+
+#logo {
+    font-size: 35px;
+    line-height: 75px;
+}
+
+.explanation {
+    margin: 40px;
+    background-color: darkgray;
+	padding: 15px;
+    font-weight: bold;
+}
+
+li {
+    margin-left:20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.li_ex {
+    margin-top: 5px;
+    line-height: 2;
+}
+
+.calculate_area {
+    text-align: center;
+}
+
+.data {
+    margin-top: 30px;
+}
+
+.data_s {
+    font-size: 20px;
+    height: 30px;
+    width: 75px;
+    padding: 5px;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+label {
+    display: inline-block;
+    font-size: 18px;
+}
+
+label.first {
+    text-align: right;
+    width: 135px;
+}
+
+label.last {
+    text-align: start;
+    margin-right: 40px;
+}
+
+#calculate {
+    margin-top: 30px;
+    margin-left: 75px;
+    margin-bottom: 30px;
+    margin-right: 75px;
+    color: #fdffff;
+    padding: 20px 40px;
+    background-color: black;
+    width: 250px;
+    font-family: "Avenir";
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+#result-area {
+    display: flex;
+    justify-content: center;
+}
+
+.result-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#result-logo {
+    font-family: "Avenir";
+    font-size: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.result-headerF {
+    margin-top: 75px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.copyButton {
+    margin-left: 60px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    background-color: #fdffff;
+    color: black;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: "Avenir";
+}

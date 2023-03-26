@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="salaryCalc.css">
+    <title>給料計算</title>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <h1 id="logo">Salary Calculator - N edition</h1>
+        </div>
+    </header>
+
+    <div class="explanation">
+        <p>N中等部TAの1ヶ月分給料を計算します</p><br>
+        <h2>< 使い方 ></h2>
+        <ol>
+            <li>
+                <h3>時給、交通費、日数(ALL/AM or PM)を入力します</h3>
+                <div class="li_ex">               
+                    時給と日数は必ず入力してください。入力は半角数字のみ受け付けます。入力しない箇所については0のままにしてください<br>
+                    ※日数については、ALL : 7.75h/日、AM or PM : 4.75h/日 で計算されます
+                </div>
+            </li>
+            <li><h3>入力が終わったら、「Calculate」ボタンを押してください</h3></li>
+        </ol>
+    </div>
+
+    <div class="calculate_area">
+        <div class="data">
+            <p>
+                <label class="first">時給</label>
+                <input type="text" class="data_s" maxlength="4" value="0" id="wage">
+                <label class="last">円</label>
+
+                <label class="first">交通費(往復)</label>
+                <input type="text" class="data_s" maxlength="4" value="0" id="transEx">
+                <label class="last">円</label>
+            </p>
+            <p>
+                <label class="first">AM or PM</label>
+                <input type="text" class="data_s" maxlength="2" value="0" id="half" max="31">
+                <label class="last">日</label>
+
+                <label class="first">ALL</label>
+                <input type="text" class="data_s" maxlength="2" value="0" id="all" max="31">
+                <label class="last">日</label>
+            </p>
+        </div>
+    
+        <button id="calculate">Calculate</button>    
+    </div>
+
+    <div id = "result-area"></div>
+    <script src="salaryCalc.js"></script>
+</body>
+</html>
