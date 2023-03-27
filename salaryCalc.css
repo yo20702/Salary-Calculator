@@ -114,5 +114,5 @@ label.last {
     width: 120px;
     border-radius: 10px;
     font-size: 15px;
-    font-family: "Avenir";
+    border: 1px solid black;
 }
