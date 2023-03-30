@@ -21,6 +21,7 @@
     background-color: darkgray;
 	padding: 15px;
     font-weight: bold;
+    font-family: "ヒラギノ角ゴ ProN W3";
 }
 
 li {
@@ -55,6 +56,7 @@ li {
 label {
     display: inline-block;
     font-size: 18px;
+    font-family: "ヒラギノ角ゴ ProN W3";
 }
 
 label.first {
