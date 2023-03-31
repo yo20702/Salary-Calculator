@@ -55,8 +55,7 @@ calculateButton.onclick = () => {
 
 function copyToClipBoard() {
     let content = document.getElementById('result-logo').innerText;
-    //console.log(content);
-
+    
     navigator.clipboard.writeText(content)
         .then(() => {
         console.log("Text copied to clipboard...")
